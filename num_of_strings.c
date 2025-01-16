@@ -7,7 +7,7 @@ int main() {
 
     srand(time(NULL));
 
-    char string[100]="fuck ginger",newstring[100];
+    char string[100]="abcefg",newstring[100];
     //fgets(string,100,stdin);
     //string[strcspn(string,"\n\r")]='\0';
     int test = strcmp(string,"quit");
@@ -28,8 +28,8 @@ int main() {
         //scanf(" ");
         //fgets(string,100,stdin);
         //string[strcspn(string,"\n\r")]='\0';
-        strcpy(string,"fuck ginger");
-        test = strcmp(newstring,"fuck nigger");
+        strcpy(string,"abcdefg");
+        test = strcmp(newstring,"abcdefg");
         tries++;
       //  printf("(%s)\n",string);
         //system("pause");
